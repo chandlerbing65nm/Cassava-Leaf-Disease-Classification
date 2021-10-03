@@ -41,7 +41,7 @@ There are Four classes of leaf diseases and One class of a healthy one. Here the
 
 # Getting Started
 Clone this repository and upload into your google drive.
-Put the [Fmix](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/tree/main/image-fmix/FMix-master), [timm](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/tree/main/pytorch-image-models/pytorch-image-models-master) and the [dataset](https://www.kaggle.com/c/cassava-leaf-disease-classification/data) into folder:
+Put the [Fmix](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/tree/main/image-fmix/FMix-master), [timm](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/tree/main/pytorch-image-models/pytorch-image-models-master) and the [dataset](https://www.kaggle.com/c/cassava-leaf-disease-classification/data) into your Gdrive directory:
 > Kaggle-Projects/Cassava-Leaf-Disease/input
 
 Make sure you copy your project folder to colab directory so you don't casually edit your drive directory. This is already in the notebook, don't worry.
@@ -56,7 +56,7 @@ drive.mount("/content/drive", force_remount=True)
 ## Training
 Open [ViT-Training.ipynb](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/main/ViT_Training.ipynb) and click open in colab.
 
-Manually run each cell until you reach the cell \***Helper Functions (perform this twice)**\*. You should perform this twice since it will be an error in the first run. Google Colab had a problem with the \***cv.imread()**\* function.
+Manually run each cell until you reach the cell \***Helper Functions (perform this twice)**\*. You should perform this twice since it will be an error in the first run. Google Colab had a problem with the \***cv.imread()**\* and \***plt.imread()**\* functions.
 
 This is the code in the cell.
 ```python
@@ -82,6 +82,8 @@ plt.show()
 The training loop at \***Main Training Loop**\* have 5 folds with 9 epochs each fold. Using NVIDIA P100 GPU, the approximate training time for the 5 folds is +/-1Hour.
 
 After the training, inspect the \***validation multi-class accuracy**\* of each fold. Then, save the epoch 6-9 of the highest accuracy fold into your GDrive.
+
+Save in your Gdrive directory:
 > Kaggle-Projects/Cassava-Leaf-Disease/output
 
 
@@ -92,16 +94,16 @@ In my run, the highest accuracy that I got is from fold 2. Here is my training a
 ## Inference
 Open [ViT-Inference.ipynb](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/main/ViT_Inference.ipynb) and click open in colab.
 
-Again, manually run each cell until you reach the cell \***Helper Functions (perform this twice)**\*. You should perform this twice since it will be an error in the first run. Google Colab had a problem with the \***cv.imread()**\* function.
+Again, manually run each cell until you reach the cell \***Helper Functions (perform this twice)**\*. You should perform this twice since it will be an error in the first run. Google Colab had a problem with the \***cv.imread()**\* and \***plt.imread()**\* functions.
 
 In the \***Main Inference Loop**\* cell, be aware that you should replace this line:
 ```python
 model.load_state_dict(torch.load('output/fold_{}/{}_fold_{}_{}'.format(fold, CFG['model_arch'], fold, epoch)))
 ```
 
-with the directory of which you saved your model checkpoints from training.
+with the directory of which you saved your model checkpoints from training. But if you already placed the model checkpoints in the output folder, you're good to go.
 
-Alternatively, you can run my [notebook in kaggle](https://www.kaggle.com/chandlertimm/vit-inference). Click edit and select GPU in the resources.
+Alternatively, you can run my [notebook in kaggle](https://www.kaggle.com/chandlertimm/vit-inference). Click edit and select GPU in the resources. You can run-all automatically, no errors will be encountered unlike in colab.
 
 My inference loss and accuracy are:
 - [x] validation loss: 0.21047
