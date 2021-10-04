@@ -98,7 +98,7 @@ Again, manually run each cell until you reach the cell \***Helper Functions (per
 
 In the \***Main Inference Loop**\* cell, be aware that you should replace this line:
 ```python
-model.load_state_dict(torch.load('output/fold_{}/{}_fold_{}_{}'.format(fold, CFG['model_arch'], fold, epoch)))
+model.load_state_dict(torch.load('output/{}_fold_{}_{}'.format(CFG['model_arch'], fold, epoch)))
 ```
 
 with the directory of which you saved your model checkpoints from training. But if you already placed the model checkpoints in the output folder, you're good to go.
