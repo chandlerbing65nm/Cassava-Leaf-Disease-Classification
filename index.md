@@ -8,7 +8,7 @@ The colab codes used in this repository is based on the [kaggle notebook](https:
 The difference is instead of using EfficientNet, I used Vision Transformers which do not have any CNN's and is currently the state-of-the-art network for computer vision tasks.
 
 # Overview
-![alt text](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/gh-pages/competition.png)
+![](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/gh-pages/competition.png)
 
 As the second-largest provider of carbohydrates in Africa, cassava is a key food security crop grown by smallholder farmers because it can withstand harsh conditions. At least 80% of household farms in Sub-Saharan Africa grow this starchy root, but viral diseases are major sources of poor yields. With the help of data science, it may be possible to identify common diseases so they can be treated.
 
@@ -114,4 +114,4 @@ Take note that the test set of this competition is hidden, so you need to submit
 # Results
 In my submission, I got a test set accuracy of 0.8838 or 88.38%.
 
-![alt text](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/gh-pages/results.jpg)
+![](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/gh-pages/results.jpg)
