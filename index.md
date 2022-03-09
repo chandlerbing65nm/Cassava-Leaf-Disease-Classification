@@ -114,4 +114,4 @@ Take note that the test set of this competition is hidden, so you need to submit
 # Results
 In my submission, I got a test set accuracy of 0.8838 or 88.38%.
 
-![alt text](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/main/images/results.jpg)
+![alt text](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/gh-pages/results.jpg)
