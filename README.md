@@ -3,7 +3,7 @@
 This is my project repository for image classification of cassava leaf diseases. This is based on the [Kaggle competition](https://www.kaggle.com/c/cassava-leaf-disease-classification) of the same title.
 
 # Introduction
-The colab codes used in this repository is based on the [kaggle notebook](https://www.kaggle.com/khyeh0719/pytorch-efficientnet-baseline-train-amp-aug) of [Kun Hao Yeh](https://www.kaggle.com/khyeh0719). 
+The colab notebook used in this repository is based on the [kaggle notebook](https://www.kaggle.com/khyeh0719/pytorch-efficientnet-baseline-train-amp-aug) of [Kun Hao Yeh](https://www.kaggle.com/khyeh0719). 
 
 The difference is instead of using EfficientNet, I used Vision Transformers which do not have any CNN's and is currently the state-of-the-art network for computer vision tasks.
 
