@@ -1,10 +1,22 @@
-![banner](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/main/images/Cassava_Leaf_Disease__nIdentification.png?raw=true)
+<p align="center">
+  <img 
+    width="1000"
+    height="200"
+    src="https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/main/images/Cassava_Leaf_Disease__nIdentification.png?raw=true"
+  >
+</p>
 
 ![last commit](https://img.shields.io/github/last-commit/chandlerbing65nm/Cassava-Leaf-Disease-Classification) ![repo size](https://img.shields.io/github/repo-size/chandlerbing65nm/Cassava-Leaf-Disease-Classification) ![watchers](https://img.shields.io/github/watchers/chandlerbing65nm/Cassava-Leaf-Disease-Classification?style=social)
 
 Image classification of cassava leaf diseases. This is based on the [Kaggle competition](https://www.kaggle.com/c/cassava-leaf-disease-classification) of the same title.
 
-![alt text](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/main/images/competition.png?raw=true)
+<p align="center">
+  <img 
+    width="1500"
+    height="500"
+    src="https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/main/images/competition.png?raw=true"
+  >
+</p>
 
 # Overview
 As the second-largest provider of carbohydrates in Africa, cassava is a key food security crop grown by smallholder farmers because it can withstand harsh conditions. At least 80% of household farms in Sub-Saharan Africa grow this starchy root, but viral diseases are major sources of poor yields. With the help of data science, it may be possible to identify common diseases so they can be treated.
