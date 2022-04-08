@@ -1,7 +1,7 @@
 <p align="center">
   <img 
-    width="1000"
-    height="200"
+    width="900"
+    height="150"
     src="https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/main/images/Cassava_Leaf_Disease__nIdentification.png?raw=true"
   >
 </p>
