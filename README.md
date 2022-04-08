@@ -6,9 +6,15 @@
   >
 </p>
 
-![last commit](https://img.shields.io/github/last-commit/chandlerbing65nm/Cassava-Leaf-Disease-Classification) ![repo size](https://img.shields.io/github/repo-size/chandlerbing65nm/Cassava-Leaf-Disease-Classification) ![watchers](https://img.shields.io/github/watchers/chandlerbing65nm/Cassava-Leaf-Disease-Classification?style=social)
+<div align="center">
 
-Image classification of cassava leaf diseases. This is based on the [Kaggle competition](https://www.kaggle.com/c/cassava-leaf-disease-classification) of the same title.
+  <a href="">![last commit](https://img.shields.io/github/last-commit/chandlerbing65nm/Cassava-Leaf-Disease-Classification)</a>
+  <a href="">![repo size](https://img.shields.io/github/repo-size/chandlerbing65nm/Cassava-Leaf-Disease-Classification)</a>
+  <a href="">![watchers](https://img.shields.io/github/watchers/chandlerbing65nm/Cassava-Leaf-Disease-Classification?style=social)</a>
+
+</div>
+
+<h4 align="center">Image classification of cassava leaf diseases. This is based on the <a href="https://www.kaggle.com/c/cassava-leaf-disease-classification" target="_blank">Kaggle competition</a> of the same title.</h4>
 
 <p align="center">
   <img 
