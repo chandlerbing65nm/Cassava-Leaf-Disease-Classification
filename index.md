@@ -1,15 +1,20 @@
-# Cassava Leaf Disease Classification
+<p align="center">
+  <img 
+    src="https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/main/images/Cassava_Leaf_Disease__nIdentification.png?raw=true"
+  >
+</p>
 
-This is my project repository for image classification of cassava leaf diseases. This is based on the [Kaggle competition](https://www.kaggle.com/c/cassava-leaf-disease-classification) of the same title.
+<h4 align="center">Image classification of cassava leaf diseases. This is based on the <a href="https://www.kaggle.com/c/cassava-leaf-disease-classification" target="_blank">Kaggle competition</a> of the same title.</h4>
 
-# Introduction
-The colab codes used in this repository is based on the [kaggle notebook](https://www.kaggle.com/khyeh0719/pytorch-efficientnet-baseline-train-amp-aug) of [Kun Hao Yeh](https://www.kaggle.com/khyeh0719). 
-
-The difference is instead of using EfficientNet, I used Vision Transformers which do not have any CNN's and is currently the state-of-the-art network for computer vision tasks.
+<p align="center">
+  <img 
+    src="https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/main/images/competition.png?raw=true"
+  >
+</p>
 
 # Overview
-![](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/gh-pages/competition.png?raw=true)
-
+![personal](https://img.shields.io/badge/project-chandlertimmdoloriel-red?style=for-the-badge&logo=appveyor)
+<br>
 As the second-largest provider of carbohydrates in Africa, cassava is a key food security crop grown by smallholder farmers because it can withstand harsh conditions. At least 80% of household farms in Sub-Saharan Africa grow this starchy root, but viral diseases are major sources of poor yields. With the help of data science, it may be possible to identify common diseases so they can be treated.
 
 Existing methods of disease detection require farmers to solicit the help of government-funded agricultural experts to visually inspect and diagnose the plants. This suffers from being labor-intensive, low-supply and costly. As an added challenge, effective solutions for farmers must perform well under significant constraints, since African farmers may only have access to mobile-quality cameras with low-bandwidth.
@@ -114,4 +119,4 @@ Take note that the test set of this competition is hidden, so you need to submit
 # Results
 In my submission, I got a test set accuracy of 0.8838 or 88.38%.
 
-![](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/gh-pages/results.jpg?raw=true)
+![alt text](https://github.com/chandlerbing65nm/Cassava-Leaf-Disease-Classification/blob/main/images/results.jpg?raw=true)
